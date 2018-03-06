@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="MinervaSegs" targetName="RWordCharDetector" />
+      <config projectName="MinervaSegs" targetName="GRHSWordDetector" />
+      <config projectName="MinervaSegs" targetName="GRHWordDetector" />
+      <config projectName="MinervaSegs" targetName="RWordDetector" />
+      <config projectName="MinervaSegs" targetName="HWordCharDetector" />
+      <config projectName="MinervaSegs" targetName="HSWordCharDetector" />
+      <config projectName="MinervaSegs" targetName="GRHSWordCharDetector" />
+      <config projectName="MinervaSegs" targetName="GRWordDetector" />
+      <config projectName="MinervaSegs" targetName="WordDetector" />
+      <config projectName="MinervaSegs" targetName="LSTMWordDetector" />
+      <config projectName="MinervaSegs" targetName="RHSWordCharDetector" />
+      <config projectName="MinervaSegs" targetName="RHSWordDetector" />
+      <config projectName="MinervaSegs" targetName="GRWordCharDetector" />
+      <config projectName="MinervaSegs" targetName="HWordDetector" />
+      <config projectName="MinervaSegs" targetName="GRHWordCharDetector" />
+      <config projectName="MinervaSegs" targetName="SparseDetector" />
+      <config projectName="MinervaSegs" targetName="HSWordDetector" />
+      <config projectName="MinervaSegs" targetName="WordCharDetector" />
+      <config projectName="MinervaSegs" targetName="RHWordDetector" />
+      <config projectName="MinervaSegs" targetName="RHWordCharDetector" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1edfb285-e023-44d0-b734-1144a619ae8a" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RHSWordDetector.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RHSWordDetector.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MinervaSegs" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="NNContextSentiment-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.GRHSWordCharDetector">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+    </configuration>
+    <configuration name="GRHSWordCharDetector" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MinervaSegs" TARGET_NAME="GRHSWordCharDetector" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MinervaSegs" RUN_TARGET_NAME="GRHSWordCharDetector">
+      <envs />
+    </configuration>
+    <configuration name="GRHSWordDetector" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MinervaSegs" TARGET_NAME="GRHSWordDetector" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MinervaSegs" RUN_TARGET_NAME="GRHSWordDetector">
+      <envs />
+    </configuration>
+    <configuration name="GRHWordCharDetector" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MinervaSegs" TARGET_NAME="GRHWordCharDetector" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MinervaSegs" RUN_TARGET_NAME="GRHWordCharDetector">
+      <envs />
+    </configuration>
+    <configuration name="GRHWordDetector" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MinervaSegs" TARGET_NAME="GRHWordDetector" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MinervaSegs" RUN_TARGET_NAME="GRHWordDetector">
+      <envs />
+    </configuration>
+    <configuration name="GRWordCharDetector" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MinervaSegs" TARGET_NAME="GRWordCharDetector" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MinervaSegs" RUN_TARGET_NAME="GRWordCharDetector">
+      <envs />
+    </configuration>
+    <configuration name="GRWordDetector" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MinervaSegs" TARGET_NAME="GRWordDetector" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MinervaSegs" RUN_TARGET_NAME="GRWordDetector">
+      <envs />
+    </configuration>
+    <configuration name="HSWordCharDetector" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MinervaSegs" TARGET_NAME="HSWordCharDetector" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MinervaSegs" RUN_TARGET_NAME="HSWordCharDetector">
+      <envs />
+    </configuration>
+    <configuration name="HSWordDetector" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MinervaSegs" TARGET_NAME="HSWordDetector" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MinervaSegs" RUN_TARGET_NAME="HSWordDetector">
+      <envs />
+    </configuration>
+    <configuration name="HWordCharDetector" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MinervaSegs" TARGET_NAME="HWordCharDetector" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MinervaSegs" RUN_TARGET_NAME="HWordCharDetector">
+      <envs />
+    </configuration>
+    <configuration name="HWordDetector" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MinervaSegs" TARGET_NAME="HWordDetector" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MinervaSegs" RUN_TARGET_NAME="HWordDetector">
+      <envs />
+    </configuration>
+    <configuration name="LSTMWordDetector" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MinervaSegs" TARGET_NAME="LSTMWordDetector" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MinervaSegs" RUN_TARGET_NAME="LSTMWordDetector">
+      <envs />
+    </configuration>
+    <configuration name="RHSWordCharDetector" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MinervaSegs" TARGET_NAME="RHSWordCharDetector" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MinervaSegs" RUN_TARGET_NAME="RHSWordCharDetector">
+      <envs />
+    </configuration>
+    <configuration name="RHSWordDetector" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MinervaSegs" TARGET_NAME="RHSWordDetector" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MinervaSegs" RUN_TARGET_NAME="RHSWordDetector">
+      <envs />
+    </configuration>
+    <configuration name="RHWordCharDetector" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MinervaSegs" TARGET_NAME="RHWordCharDetector" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MinervaSegs" RUN_TARGET_NAME="RHWordCharDetector">
+      <envs />
+    </configuration>
+    <configuration name="RHWordDetector" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MinervaSegs" TARGET_NAME="RHWordDetector" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MinervaSegs" RUN_TARGET_NAME="RHWordDetector">
+      <envs />
+    </configuration>
+    <configuration name="RWordCharDetector" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MinervaSegs" TARGET_NAME="RWordCharDetector" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MinervaSegs" RUN_TARGET_NAME="RWordCharDetector">
+      <envs />
+    </configuration>
+    <configuration name="RWordDetector" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MinervaSegs" TARGET_NAME="RWordDetector" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MinervaSegs" RUN_TARGET_NAME="RWordDetector">
+      <envs />
+    </configuration>
+    <configuration name="SparseDetector" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MinervaSegs" TARGET_NAME="SparseDetector" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MinervaSegs" RUN_TARGET_NAME="SparseDetector">
+      <envs />
+    </configuration>
+    <configuration name="WordCharDetector" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MinervaSegs" TARGET_NAME="WordCharDetector" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MinervaSegs" RUN_TARGET_NAME="WordCharDetector">
+      <envs />
+    </configuration>
+    <configuration name="WordDetector" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MinervaSegs" TARGET_NAME="WordDetector" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MinervaSegs" RUN_TARGET_NAME="WordDetector">
+      <envs />
+    </configuration>
+    <list size="21">
+      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="1" class="java.lang.String" itemvalue="Application.GRHSWordCharDetector" />
+      <item index="2" class="java.lang.String" itemvalue="Application.GRHSWordDetector" />
+      <item index="3" class="java.lang.String" itemvalue="Application.GRHWordCharDetector" />
+      <item index="4" class="java.lang.String" itemvalue="Application.GRHWordDetector" />
+      <item index="5" class="java.lang.String" itemvalue="Application.GRWordCharDetector" />
+      <item index="6" class="java.lang.String" itemvalue="Application.GRWordDetector" />
+      <item index="7" class="java.lang.String" itemvalue="Application.HSWordCharDetector" />
+      <item index="8" class="java.lang.String" itemvalue="Application.HSWordDetector" />
+      <item index="9" class="java.lang.String" itemvalue="Application.HWordCharDetector" />
+      <item index="10" class="java.lang.String" itemvalue="Application.HWordDetector" />
+      <item index="11" class="java.lang.String" itemvalue="Application.LSTMWordDetector" />
+      <item index="12" class="java.lang.String" itemvalue="Application.RHSWordCharDetector" />
+      <item index="13" class="java.lang.String" itemvalue="Application.RHSWordDetector" />
+      <item index="14" class="java.lang.String" itemvalue="Application.RHWordCharDetector" />
+      <item index="15" class="java.lang.String" itemvalue="Application.RHWordDetector" />
+      <item index="16" class="java.lang.String" itemvalue="Application.RWordCharDetector" />
+      <item index="17" class="java.lang.String" itemvalue="Application.RWordDetector" />
+      <item index="18" class="java.lang.String" itemvalue="Application.SparseDetector" />
+      <item index="19" class="java.lang.String" itemvalue="Application.WordCharDetector" />
+      <item index="20" class="java.lang.String" itemvalue="Application.WordDetector" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1edfb285-e023-44d0-b734-1144a619ae8a" name="Default" comment="" />
+      <created>1520330199284</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1520330199284</updated>
+      <workItem from="1520330203924" duration="1295000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1295000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RHSWordDetector.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,1245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MinervaSegs"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RWordDetector">
+				<Option output="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/RWordDetector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CBLAS=1"/>
+					<Add option="-DMSHADOW_USE_MKL=0"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/basic"/>
+					<Add directory="/opt/mshadow"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/../LibN3L"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 RWordDetector"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RWordDetector/fast">
+				<Option output="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/RWordDetector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CBLAS=1"/>
+					<Add option="-DMSHADOW_USE_MKL=0"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/basic"/>
+					<Add directory="/opt/mshadow"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/../LibN3L"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 RWordDetector/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SparseDetector">
+				<Option output="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/SparseDetector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CBLAS=1"/>
+					<Add option="-DMSHADOW_USE_MKL=0"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/basic"/>
+					<Add directory="/opt/mshadow"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/../LibN3L"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 SparseDetector"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SparseDetector/fast">
+				<Option output="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/SparseDetector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CBLAS=1"/>
+					<Add option="-DMSHADOW_USE_MKL=0"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/basic"/>
+					<Add directory="/opt/mshadow"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/../LibN3L"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 SparseDetector/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GRHSWordCharDetector">
+				<Option output="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/GRHSWordCharDetector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CBLAS=1"/>
+					<Add option="-DMSHADOW_USE_MKL=0"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/basic"/>
+					<Add directory="/opt/mshadow"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/../LibN3L"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 GRHSWordCharDetector"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GRHSWordCharDetector/fast">
+				<Option output="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/GRHSWordCharDetector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CBLAS=1"/>
+					<Add option="-DMSHADOW_USE_MKL=0"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/basic"/>
+					<Add directory="/opt/mshadow"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/../LibN3L"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 GRHSWordCharDetector/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="WordDetector">
+				<Option output="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/WordDetector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CBLAS=1"/>
+					<Add option="-DMSHADOW_USE_MKL=0"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/basic"/>
+					<Add directory="/opt/mshadow"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/../LibN3L"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 WordDetector"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="WordDetector/fast">
+				<Option output="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/WordDetector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CBLAS=1"/>
+					<Add option="-DMSHADOW_USE_MKL=0"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/basic"/>
+					<Add directory="/opt/mshadow"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/../LibN3L"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 WordDetector/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RHWordDetector">
+				<Option output="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/RHWordDetector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CBLAS=1"/>
+					<Add option="-DMSHADOW_USE_MKL=0"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/basic"/>
+					<Add directory="/opt/mshadow"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/../LibN3L"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 RHWordDetector"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RHWordDetector/fast">
+				<Option output="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/RHWordDetector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CBLAS=1"/>
+					<Add option="-DMSHADOW_USE_MKL=0"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/basic"/>
+					<Add directory="/opt/mshadow"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/../LibN3L"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 RHWordDetector/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HWordDetector">
+				<Option output="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/HWordDetector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CBLAS=1"/>
+					<Add option="-DMSHADOW_USE_MKL=0"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/basic"/>
+					<Add directory="/opt/mshadow"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/../LibN3L"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 HWordDetector"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HWordDetector/fast">
+				<Option output="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/HWordDetector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CBLAS=1"/>
+					<Add option="-DMSHADOW_USE_MKL=0"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/basic"/>
+					<Add directory="/opt/mshadow"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/../LibN3L"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 HWordDetector/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RHSWordDetector">
+				<Option output="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/RHSWordDetector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CBLAS=1"/>
+					<Add option="-DMSHADOW_USE_MKL=0"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/basic"/>
+					<Add directory="/opt/mshadow"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/../LibN3L"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 RHSWordDetector"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RHSWordDetector/fast">
+				<Option output="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/RHSWordDetector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CBLAS=1"/>
+					<Add option="-DMSHADOW_USE_MKL=0"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/basic"/>
+					<Add directory="/opt/mshadow"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/../LibN3L"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 RHSWordDetector/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GRHWordDetector">
+				<Option output="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/GRHWordDetector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CBLAS=1"/>
+					<Add option="-DMSHADOW_USE_MKL=0"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/basic"/>
+					<Add directory="/opt/mshadow"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/../LibN3L"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 GRHWordDetector"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GRHWordDetector/fast">
+				<Option output="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/GRHWordDetector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CBLAS=1"/>
+					<Add option="-DMSHADOW_USE_MKL=0"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/basic"/>
+					<Add directory="/opt/mshadow"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/../LibN3L"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 GRHWordDetector/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GRWordDetector">
+				<Option output="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/GRWordDetector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CBLAS=1"/>
+					<Add option="-DMSHADOW_USE_MKL=0"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/basic"/>
+					<Add directory="/opt/mshadow"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/../LibN3L"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 GRWordDetector"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GRWordDetector/fast">
+				<Option output="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/GRWordDetector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CBLAS=1"/>
+					<Add option="-DMSHADOW_USE_MKL=0"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/basic"/>
+					<Add directory="/opt/mshadow"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/../LibN3L"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 GRWordDetector/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HSWordDetector">
+				<Option output="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/HSWordDetector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CBLAS=1"/>
+					<Add option="-DMSHADOW_USE_MKL=0"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/basic"/>
+					<Add directory="/opt/mshadow"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/../LibN3L"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 HSWordDetector"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HSWordDetector/fast">
+				<Option output="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/HSWordDetector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CBLAS=1"/>
+					<Add option="-DMSHADOW_USE_MKL=0"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/basic"/>
+					<Add directory="/opt/mshadow"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/../LibN3L"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 HSWordDetector/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="WordCharDetector">
+				<Option output="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/WordCharDetector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CBLAS=1"/>
+					<Add option="-DMSHADOW_USE_MKL=0"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/basic"/>
+					<Add directory="/opt/mshadow"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/../LibN3L"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 WordCharDetector"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="WordCharDetector/fast">
+				<Option output="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/WordCharDetector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CBLAS=1"/>
+					<Add option="-DMSHADOW_USE_MKL=0"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/basic"/>
+					<Add directory="/opt/mshadow"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/../LibN3L"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 WordCharDetector/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GRHSWordDetector">
+				<Option output="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/GRHSWordDetector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CBLAS=1"/>
+					<Add option="-DMSHADOW_USE_MKL=0"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/basic"/>
+					<Add directory="/opt/mshadow"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/../LibN3L"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 GRHSWordDetector"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GRHSWordDetector/fast">
+				<Option output="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/GRHSWordDetector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CBLAS=1"/>
+					<Add option="-DMSHADOW_USE_MKL=0"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/basic"/>
+					<Add directory="/opt/mshadow"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/../LibN3L"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 GRHSWordDetector/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HWordCharDetector">
+				<Option output="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/HWordCharDetector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CBLAS=1"/>
+					<Add option="-DMSHADOW_USE_MKL=0"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/basic"/>
+					<Add directory="/opt/mshadow"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/../LibN3L"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 HWordCharDetector"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HWordCharDetector/fast">
+				<Option output="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/HWordCharDetector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CBLAS=1"/>
+					<Add option="-DMSHADOW_USE_MKL=0"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/basic"/>
+					<Add directory="/opt/mshadow"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/../LibN3L"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 HWordCharDetector/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HSWordCharDetector">
+				<Option output="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/HSWordCharDetector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CBLAS=1"/>
+					<Add option="-DMSHADOW_USE_MKL=0"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/basic"/>
+					<Add directory="/opt/mshadow"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/../LibN3L"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 HSWordCharDetector"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HSWordCharDetector/fast">
+				<Option output="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/HSWordCharDetector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CBLAS=1"/>
+					<Add option="-DMSHADOW_USE_MKL=0"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/basic"/>
+					<Add directory="/opt/mshadow"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/../LibN3L"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 HSWordCharDetector/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RWordCharDetector">
+				<Option output="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/RWordCharDetector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CBLAS=1"/>
+					<Add option="-DMSHADOW_USE_MKL=0"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/basic"/>
+					<Add directory="/opt/mshadow"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/../LibN3L"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 RWordCharDetector"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RWordCharDetector/fast">
+				<Option output="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/RWordCharDetector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CBLAS=1"/>
+					<Add option="-DMSHADOW_USE_MKL=0"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/basic"/>
+					<Add directory="/opt/mshadow"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/../LibN3L"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 RWordCharDetector/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RHWordCharDetector">
+				<Option output="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/RHWordCharDetector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CBLAS=1"/>
+					<Add option="-DMSHADOW_USE_MKL=0"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/basic"/>
+					<Add directory="/opt/mshadow"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/../LibN3L"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 RHWordCharDetector"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RHWordCharDetector/fast">
+				<Option output="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/RHWordCharDetector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CBLAS=1"/>
+					<Add option="-DMSHADOW_USE_MKL=0"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/basic"/>
+					<Add directory="/opt/mshadow"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/../LibN3L"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 RHWordCharDetector/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GRHWordCharDetector">
+				<Option output="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/GRHWordCharDetector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CBLAS=1"/>
+					<Add option="-DMSHADOW_USE_MKL=0"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/basic"/>
+					<Add directory="/opt/mshadow"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/../LibN3L"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 GRHWordCharDetector"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GRHWordCharDetector/fast">
+				<Option output="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/GRHWordCharDetector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CBLAS=1"/>
+					<Add option="-DMSHADOW_USE_MKL=0"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/basic"/>
+					<Add directory="/opt/mshadow"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/../LibN3L"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 GRHWordCharDetector/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RHSWordCharDetector">
+				<Option output="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/RHSWordCharDetector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CBLAS=1"/>
+					<Add option="-DMSHADOW_USE_MKL=0"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/basic"/>
+					<Add directory="/opt/mshadow"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/../LibN3L"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 RHSWordCharDetector"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RHSWordCharDetector/fast">
+				<Option output="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/RHSWordCharDetector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CBLAS=1"/>
+					<Add option="-DMSHADOW_USE_MKL=0"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/basic"/>
+					<Add directory="/opt/mshadow"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/../LibN3L"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 RHSWordCharDetector/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GRWordCharDetector">
+				<Option output="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/GRWordCharDetector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CBLAS=1"/>
+					<Add option="-DMSHADOW_USE_MKL=0"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/basic"/>
+					<Add directory="/opt/mshadow"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/../LibN3L"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 GRWordCharDetector"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GRWordCharDetector/fast">
+				<Option output="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/GRWordCharDetector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CBLAS=1"/>
+					<Add option="-DMSHADOW_USE_MKL=0"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/basic"/>
+					<Add directory="/opt/mshadow"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/../LibN3L"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 GRWordCharDetector/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LSTMWordDetector">
+				<Option output="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/LSTMWordDetector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CBLAS=1"/>
+					<Add option="-DMSHADOW_USE_MKL=0"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/basic"/>
+					<Add directory="/opt/mshadow"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/../LibN3L"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 LSTMWordDetector"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LSTMWordDetector/fast">
+				<Option output="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/LSTMWordDetector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CUDA=0"/>
+					<Add option="-DMSHADOW_USE_CBLAS=1"/>
+					<Add option="-DMSHADOW_USE_MKL=0"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/basic"/>
+					<Add directory="/opt/mshadow"/>
+					<Add directory="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/../LibN3L"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/../../../../include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/mingw32/3.4.5/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 LSTMWordDetector/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/GRHSWordCharDetector.cpp">
+			<Option target="GRHSWordCharDetector"/>
+		</Unit>
+		<Unit filename="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/GRHSWordCharDetector.h">
+			<Option target="GRHSWordCharDetector"/>
+		</Unit>
+		<Unit filename="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/GRHSWordDetector.cpp">
+			<Option target="GRHSWordDetector"/>
+		</Unit>
+		<Unit filename="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/GRHSWordDetector.h">
+			<Option target="GRHSWordDetector"/>
+		</Unit>
+		<Unit filename="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/GRHWordCharDetector.cpp">
+			<Option target="GRHWordCharDetector"/>
+		</Unit>
+		<Unit filename="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/GRHWordCharDetector.h">
+			<Option target="GRHWordCharDetector"/>
+		</Unit>
+		<Unit filename="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/GRHWordDetector.cpp">
+			<Option target="GRHWordDetector"/>
+		</Unit>
+		<Unit filename="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/GRHWordDetector.h">
+			<Option target="GRHWordDetector"/>
+		</Unit>
+		<Unit filename="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/GRWordCharDetector.cpp">
+			<Option target="GRWordCharDetector"/>
+		</Unit>
+		<Unit filename="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/GRWordCharDetector.h">
+			<Option target="GRWordCharDetector"/>
+		</Unit>
+		<Unit filename="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/GRWordDetector.cpp">
+			<Option target="GRWordDetector"/>
+		</Unit>
+		<Unit filename="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/GRWordDetector.h">
+			<Option target="GRWordDetector"/>
+		</Unit>
+		<Unit filename="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/HSWordCharDetector.cpp">
+			<Option target="HSWordCharDetector"/>
+		</Unit>
+		<Unit filename="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/HSWordCharDetector.h">
+			<Option target="HSWordCharDetector"/>
+		</Unit>
+		<Unit filename="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/HSWordDetector.cpp">
+			<Option target="HSWordDetector"/>
+		</Unit>
+		<Unit filename="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/HSWordDetector.h">
+			<Option target="HSWordDetector"/>
+		</Unit>
+		<Unit filename="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/HWordCharDetector.cpp">
+			<Option target="HWordCharDetector"/>
+		</Unit>
+		<Unit filename="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/HWordCharDetector.h">
+			<Option target="HWordCharDetector"/>
+		</Unit>
+		<Unit filename="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/HWordDetector.cpp">
+			<Option target="HWordDetector"/>
+		</Unit>
+		<Unit filename="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/HWordDetector.h">
+			<Option target="HWordDetector"/>
+		</Unit>
+		<Unit filename="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/LSTMWordDetector.cpp">
+			<Option target="LSTMWordDetector"/>
+		</Unit>
+		<Unit filename="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/LSTMWordDetector.h">
+			<Option target="LSTMWordDetector"/>
+		</Unit>
+		<Unit filename="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/RHSWordCharDetector.cpp">
+			<Option target="RHSWordCharDetector"/>
+		</Unit>
+		<Unit filename="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/RHSWordCharDetector.h">
+			<Option target="RHSWordCharDetector"/>
+		</Unit>
+		<Unit filename="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/RHSWordDetector.cpp">
+			<Option target="RHSWordDetector"/>
+		</Unit>
+		<Unit filename="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/RHSWordDetector.h">
+			<Option target="RHSWordDetector"/>
+		</Unit>
+		<Unit filename="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/RHWordCharDetector.cpp">
+			<Option target="RHWordCharDetector"/>
+		</Unit>
+		<Unit filename="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/RHWordCharDetector.h">
+			<Option target="RHWordCharDetector"/>
+		</Unit>
+		<Unit filename="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/RHWordDetector.cpp">
+			<Option target="RHWordDetector"/>
+		</Unit>
+		<Unit filename="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/RHWordDetector.h">
+			<Option target="RHWordDetector"/>
+		</Unit>
+		<Unit filename="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/RWordCharDetector.cpp">
+			<Option target="RWordCharDetector"/>
+		</Unit>
+		<Unit filename="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/RWordCharDetector.h">
+			<Option target="RWordCharDetector"/>
+		</Unit>
+		<Unit filename="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/RWordDetector.cpp">
+			<Option target="RWordDetector"/>
+		</Unit>
+		<Unit filename="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/RWordDetector.h">
+			<Option target="RWordDetector"/>
+		</Unit>
+		<Unit filename="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/SparseDetector.cpp">
+			<Option target="SparseDetector"/>
+		</Unit>
+		<Unit filename="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/SparseDetector.h">
+			<Option target="SparseDetector"/>
+		</Unit>
+		<Unit filename="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/WordCharDetector.cpp">
+			<Option target="WordCharDetector"/>
+		</Unit>
+		<Unit filename="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/WordCharDetector.h">
+			<Option target="WordCharDetector"/>
+		</Unit>
+		<Unit filename="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/WordDetector.cpp">
+			<Option target="WordDetector"/>
+		</Unit>
+		<Unit filename="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/WordDetector.h">
+			<Option target="WordDetector"/>
+		</Unit>
+		<Unit filename="E:/Project/ContextSentimentAnalysis/NNContextSentiment-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
